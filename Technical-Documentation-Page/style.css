@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    position: relative;
+}
+
+#main-doc{
+    margin-left: 330px;
+    position: absolute;
+}
+
+#navbar{
+    top:0;
+    left: 0;
+    width: 300px;
+    max-width: 300px;
+    height: 100%;
+    text-align: left;
+    position: fixed;
+}
+
+#navbar{
+    border-right: 5px solid #AAA;
+
+}
+
+.title-bar{
+    font-size: 1.7rem;
+    position: fixed;
+    width: 330px;
+    height: auto;
+    background-color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 0.8rem 0;
+    border-top: 1px solid #AAA;
+    margin-left: 0;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 1.05rem;
+    color: rgb(116, 114, 114);
+}
+
+#navbar li{
+    border-top: 1px solid;
+    color: #4d4e53;
+}
+
+.nav-link{
+    margin-top: 4rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 88%;
+}
+
+.title{
+    font-size: 1.7rem;
+}
+
+p{
+    padding-left: 1rem;
+    color: rgb(116, 114, 114);
+}
+
+ul li {
+    color: rgb(116, 114, 114);
+}
+
+.main-section ul li{
+   margin-left: 2rem;
+   padding: 0.5rem 0;
+}
+
+.main-section{
+    line-height: 1.5;
+}
+
+.code{
+    width: 90%;
+    margin: 0 2rem;
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+    background-color: #F7F7F7;
+    color: rgb(116, 114, 114);
+}
+
+@media (max-width: 815px){
+    #main-doc{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #navbar{
+        position: relative;
+        height: 30%;
+        border-right: none;
+        box-sizing: border-box;
+        margin-bottom: 5rem;
+        width: 330px;
+    }
+    .title-bar{
+        width: 100vw;
+        height: auto;
+        position: relative;
+        top: 0;
+        margin-bottom: 0;
+    }
+    .nav-link {
+        margin-top: 1rem;
+        padding-left: 0;
+        width: 95vw;
+        left: 0;
+        border: 2px solid black;
+        height: 100%;
+    }
+    .nav-link a{
+        padding-left: 1rem;
+    }
+}
